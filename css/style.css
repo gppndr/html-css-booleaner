@@ -1,0 +1,141 @@
+/* proprietà generali */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* proprietà body */
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+}
+
+/* header + bg pattern + logo */
+header {
+    width: auto;
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: 400px;
+    background-position: inherit;
+}
+
+#logo{
+    width: 10%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 10px;  
+}
+/* titolo + autore + data */
+#titolo {
+    margin-top: 20px;
+}
+h1{
+    font-size: 42px;
+}
+
+h3 {
+    display: inline-block;
+    color: #888888;   
+}
+
+#data {
+    font-size: 15px;
+}
+
+#link {
+    text-decoration: none;
+    color: #4EA0FF;
+}
+
+#data {
+    color: #888888;
+}
+
+/* immagini + credits*/
+#images {
+    margin-top: 15px;
+}
+
+.credits {
+    font-size: 12px;
+}
+
+/* article */
+.article {
+    margin-top: 20px;
+    
+}
+
+/* lista */
+#list {
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+thead {
+    color: white;
+    background-color: #20A9E5;
+}
+
+tbody {
+    background-color: #B1E5F2;
+}
+
+td {
+    width: 15%;
+}
+#white_table {
+    background-color: white;
+}
+
+/* footer +immagini con testo*/
+
+footer {
+    margin-top: 20px;
+}
+
+#img1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+#text1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:  20px;
+    padding-left: 10px;  
+}
+
+#img2 {
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#text2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top:  20px;
+    padding-left: 10px;  
+}
