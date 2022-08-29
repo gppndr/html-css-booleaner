@@ -101,39 +101,20 @@ td {
     background-color: white;
 }
 
-/* footer +immagini con testo*/
+/* immagini con testo*/
 
-
-#img1 {
+.img {
+    width: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 250px;
-    height: 200px;
-    background-image: url(../img/monitor.jpg);
-    background-repeat: no-repeat;  
-    background-position: center;
+    position: relative;   
 }
 
-#text1 {
-    color: white;
-    font-size: 25px;
+.text{
+    font-size: 20px;
     font-weight: bold;
-    padding-top:  20px;
-    padding-left: 10px;  
-}
-
-#img2 {
-    width: 250px;
-    height: 200px;
-    background-image: url(../img/graph.jpg);
-    background-repeat: no-repeat; 
-    background-position: center;
-}
-
-#text2 {
-    color: white;
-    font-size: 25px;
-    font-weight: bolder;
-    padding-top:  20px;
-    padding-left: 10px;  
+    color:white;
+    position: absolute;
+    top: 10px;
+    left: 10px;   
 }
