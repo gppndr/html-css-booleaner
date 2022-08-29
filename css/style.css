@@ -6,15 +6,11 @@
 
 /* proprietà body */
 body {
-    width: 100vw;
-    height: 100vh;
     padding: 30px;
 }
 
 /* header + bg pattern + logo */
 header {
-    width: auto;
-    height: 100px;
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
     background-size: 400px;
